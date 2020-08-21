@@ -19,7 +19,7 @@ public class MyMath {
     public static float Div(int a,int b)
     {
         if( b == 0)
-            throw  new IllegalArgumentException("Div by Zero error");
+            throw new IllegalArgumentException("Div by Zero error");
         else
             return a/b;
     }
